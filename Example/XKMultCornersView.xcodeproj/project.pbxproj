@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		340FC9A885631D99F0410701 /* Pods_XKMultCornersView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF198514289EBF9CFBC32E95 /* Pods_XKMultCornersView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7B54D281DA3B236DBB3E0788 /* Pods_XKMultCornersView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6725D421365BC35CAF749DAC /* Pods_XKMultCornersView_Tests.framework */; };
+		652770B6CBD0F45755A8CB0A /* Pods_XKMultCornersView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1530503F4373F4F6A3FCD5 /* Pods_XKMultCornersView_Example.framework */; };
+		B947C44B153D8FC86C665FEE /* Pods_XKMultCornersView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4F38BF737901D5E8F96C0C /* Pods_XKMultCornersView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2343B93ED0E3FD60A1A0F1A1 /* XKMultCornersView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKMultCornersView.podspec; path = ../XKMultCornersView.podspec; sourceTree = "<group>"; };
-		28104D99E371C7CC223B06D3 /* Pods-XKMultCornersView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Example.release.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Example/Pods-XKMultCornersView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4462A88EF4C384F284C54EAC /* Pods-XKMultCornersView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Tests/Pods-XKMultCornersView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4F38BF737901D5E8F96C0C /* Pods_XKMultCornersView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKMultCornersView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1530503F4373F4F6A3FCD5 /* Pods_XKMultCornersView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKMultCornersView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42109EABE59D8FB39FA352DE /* Pods-XKMultCornersView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Tests/Pods-XKMultCornersView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E971C17B79AB115080D99A4 /* Pods-XKMultCornersView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Tests/Pods-XKMultCornersView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		50520D3755702D5F7425BB4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		553A5891719F8FBFB0D23F40 /* Pods-XKMultCornersView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Example/Pods-XKMultCornersView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XKMultCornersView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKMultCornersView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +44,9 @@
 		607FACE51AFB9204008FA782 /* XKMultCornersView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKMultCornersView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6725D421365BC35CAF749DAC /* Pods_XKMultCornersView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKMultCornersView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E179842164BC86FABC4FD5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7DF768885E8307EA20BBC155 /* Pods-XKMultCornersView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Example/Pods-XKMultCornersView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D60F51555B39D8D924F1C451 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FD07EB21019273FD8093E6B9 /* Pods-XKMultCornersView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Tests/Pods-XKMultCornersView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF198514289EBF9CFBC32E95 /* Pods_XKMultCornersView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKMultCornersView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EAB6D055ED7AB632DAD6CC /* Pods-XKMultCornersView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKMultCornersView_Example.release.xcconfig"; path = "Target Support Files/Pods-XKMultCornersView_Example/Pods-XKMultCornersView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E816A23364EFFFD8E77A5E27 /* XKMultCornersView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKMultCornersView.podspec; path = ../XKMultCornersView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F58B5755FE9254012D244928 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				340FC9A885631D99F0410701 /* Pods_XKMultCornersView_Example.framework in Frameworks */,
+				652770B6CBD0F45755A8CB0A /* Pods_XKMultCornersView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,23 +62,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B54D281DA3B236DBB3E0788 /* Pods_XKMultCornersView_Tests.framework in Frameworks */,
+				B947C44B153D8FC86C665FEE /* Pods_XKMultCornersView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15C58DA159335E0BC1A17CBA /* Pods */ = {
+		0897D03120DDA79B2BB4A384 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7DF768885E8307EA20BBC155 /* Pods-XKMultCornersView_Example.debug.xcconfig */,
-				28104D99E371C7CC223B06D3 /* Pods-XKMultCornersView_Example.release.xcconfig */,
-				4462A88EF4C384F284C54EAC /* Pods-XKMultCornersView_Tests.debug.xcconfig */,
-				FD07EB21019273FD8093E6B9 /* Pods-XKMultCornersView_Tests.release.xcconfig */,
+				553A5891719F8FBFB0D23F40 /* Pods-XKMultCornersView_Example.debug.xcconfig */,
+				82EAB6D055ED7AB632DAD6CC /* Pods-XKMultCornersView_Example.release.xcconfig */,
+				4E971C17B79AB115080D99A4 /* Pods-XKMultCornersView_Tests.debug.xcconfig */,
+				42109EABE59D8FB39FA352DE /* Pods-XKMultCornersView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		370E13E7C56DC16E5D39FD4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E1530503F4373F4F6A3FCD5 /* Pods_XKMultCornersView_Example.framework */,
+				3D4F38BF737901D5E8F96C0C /* Pods_XKMultCornersView_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -88,8 +96,8 @@
 				607FACD21AFB9204008FA782 /* Example for XKMultCornersView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				15C58DA159335E0BC1A17CBA /* Pods */,
-				94319EA035B7AC30BC444A65 /* Frameworks */,
+				0897D03120DDA79B2BB4A384 /* Pods */,
+				370E13E7C56DC16E5D39FD4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,20 +152,11 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				2343B93ED0E3FD60A1A0F1A1 /* XKMultCornersView.podspec */,
-				6E179842164BC86FABC4FD5C /* README.md */,
-				D60F51555B39D8D924F1C451 /* LICENSE */,
+				E816A23364EFFFD8E77A5E27 /* XKMultCornersView.podspec */,
+				F58B5755FE9254012D244928 /* README.md */,
+				50520D3755702D5F7425BB4A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		94319EA035B7AC30BC444A65 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FF198514289EBF9CFBC32E95 /* Pods_XKMultCornersView_Example.framework */,
-				6725D421365BC35CAF749DAC /* Pods_XKMultCornersView_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XKMultCornersView_Example" */;
 			buildPhases = (
-				AA66A69938B3C62A3B1F06A0 /* [CP] Check Pods Manifest.lock */,
+				36F807024F1F15D4FB641567 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				420D53A8200BC6CEE9CC1A99 /* [CP] Embed Pods Frameworks */,
+				1B6AF4978291B8D506126FDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XKMultCornersView_Tests" */;
 			buildPhases = (
-				750A36FCAB149A33964B3DCD /* [CP] Check Pods Manifest.lock */,
+				6F220900B1989DD2D79F5A81 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		420D53A8200BC6CEE9CC1A99 /* [CP] Embed Pods Frameworks */ = {
+		1B6AF4978291B8D506126FDB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,29 +280,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XKMultCornersView_Example/Pods-XKMultCornersView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		750A36FCAB149A33964B3DCD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XKMultCornersView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA66A69938B3C62A3B1F06A0 /* [CP] Check Pods Manifest.lock */ = {
+		36F807024F1F15D4FB641567 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,6 +296,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XKMultCornersView_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F220900B1989DD2D79F5A81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XKMultCornersView_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -475,7 +475,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF768885E8307EA20BBC155 /* Pods-XKMultCornersView_Example.debug.xcconfig */;
+			baseConfigurationReference = 553A5891719F8FBFB0D23F40 /* Pods-XKMultCornersView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKMultCornersView/Info.plist;
@@ -490,7 +490,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28104D99E371C7CC223B06D3 /* Pods-XKMultCornersView_Example.release.xcconfig */;
+			baseConfigurationReference = 82EAB6D055ED7AB632DAD6CC /* Pods-XKMultCornersView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKMultCornersView/Info.plist;
@@ -505,7 +505,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4462A88EF4C384F284C54EAC /* Pods-XKMultCornersView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4E971C17B79AB115080D99A4 /* Pods-XKMultCornersView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +527,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD07EB21019273FD8093E6B9 /* Pods-XKMultCornersView_Tests.release.xcconfig */;
+			baseConfigurationReference = 42109EABE59D8FB39FA352DE /* Pods-XKMultCornersView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

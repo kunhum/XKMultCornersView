@@ -1,0 +1,6 @@
+framework module XKMultCornersView {
+  umbrella header "XKMultCornersView-umbrella.h"
+
+  export *
+  module * { export * }
+}

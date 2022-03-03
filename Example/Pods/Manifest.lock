@@ -1,0 +1,16 @@
+PODS:
+  - XKMultCornersView (0.1.0)
+
+DEPENDENCIES:
+  - XKMultCornersView (from `../`)
+
+EXTERNAL SOURCES:
+  XKMultCornersView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKMultCornersView: 1e898dc321ac1e0bf544390bd19a904eb42bc5b2
+
+PODFILE CHECKSUM: 63878752c0614bda730f6c5c625aeff1dbd0164d
+
+COCOAPODS: 1.11.2

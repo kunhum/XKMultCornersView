@@ -1,0 +1,6 @@
+framework module Pods_XKMultCornersView_Example {
+  umbrella header "Pods-XKMultCornersView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

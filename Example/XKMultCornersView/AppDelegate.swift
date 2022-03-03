@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  XKMultCornersView
 //
-//  Created by xk on 03/03/2022.
+//  Created by xk on 03/02/2022.
 //  Copyright (c) 2022 xk. All rights reserved.
 //
 

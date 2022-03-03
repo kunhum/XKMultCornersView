@@ -1,0 +1,22 @@
+{
+  "name": "XKMultCornersView",
+  "version": "0.1.0",
+  "summary": "A short description of XKMultCornersView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xk/XKMultCornersView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xk": "weikun.xie@get88.cn"
+  },
+  "source": {
+    "git": "https://github.com/xk/XKMultCornersView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XKMultCornersView/Classes/**/*"
+}
